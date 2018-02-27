@@ -36,3 +36,12 @@ How to Use
 - You will able to collect payment from the customer by assigning the module on specific page with specific position as per your current active theme.
 - In order to check the payment history, you may login to joomla administration panel and select Components -> Order History. This will list all the transaction
 done till date with their amount, status, orderid, customer email etc.
+
+# Paytm PG URL Details
+	staging	
+		Transaction URL             => https://securegw-stage.paytm.in/theia/processTransaction
+		Transaction Status Url      => https://securegw-stage.paytm.in/merchant-status/getTxnStatus
+
+	Production
+		Transaction URL             => https://securegw.paytm.in/theia/processTransaction
+		Transaction Status Url      => https://securegw.paytm.in/merchant-status/getTxnStatus
